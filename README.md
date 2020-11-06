@@ -49,15 +49,15 @@ Basically we bring in Express in the top using the CommonJs module syntax(requir
 
 If you do wanna use it you have to use something like (babel) to compile it, otherwise You're gonna use this syntax.
 
--Tthen to initialize Express You just set a variable to the express method, it's usually called `app` by convention, but you can name it anything.
+- Then to initialize Express You just set a variable to the express method, it's usually called `app` by convention, but you can name it anything.
 
 - Then You create Your endPoints, in this case we're accepting a GET request to the index route (which is the slash symbol) and then, We just have a Callback function that takes in a request and a response as parameters.
 
 - Then we do whatever we want, in this case we're just responding with the text of hello world! with send method. ( the resonse object have a method called send that will just send something to the browser(some Text or whatever).)
 
-- and of course, we need to listen on a PORT, which in this case we're listening on 5000.
+- And of course, we need to listen on a PORT, which in this case we're listening on 5000.
 
-so if we go on localhost:5000 we will se Hello world!
+So if we go on localhost:5000 we will se Hello world!
 and of course we can create routes to whatever you want, if you wanted to do `/users` or whatever.
 
 ## Basic Route Handling:
